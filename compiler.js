@@ -3,7 +3,7 @@ import parser from "./parser.js";
 
 export default function compiler(input) {
   // 1. Lexical Analysis
-	const token = tokenizer(input)
+	const tokens = tokenizer(input)
 
 	// 2. Syntactic Analysis
 
